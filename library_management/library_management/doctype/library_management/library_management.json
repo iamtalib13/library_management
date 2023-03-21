@@ -7,18 +7,42 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "first_name"
+  "details_column",
+  "middle_name",
+  "first_name",
+  "full_name_column",
+  "full_name"
  ],
  "fields": [
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
    "label": "First Name"
+  },
+  {
+   "fieldname": "details_column",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "full_name_column",
+   "fieldtype": "Column Break",
+   "label": "Full Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-21 10:53:41.811670",
+ "modified": "2023-03-21 11:29:45.939897",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Management",
